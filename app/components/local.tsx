@@ -24,9 +24,9 @@ const locations = [
             airport: "25 min do Aeroporto"
         },
         images: [
-            { src: "/images/capao.webp", alt: "Campo Gravataí" },
-            { src: "/images/capao2.webp", alt: "Estrutura Gravataí" },
-            { src: "/images/capao3.webp", alt: "Vista aérea Gravataí" },
+            { src: "/images/capao.jpg", alt: "Campo Gravataí" },
+            { src: "/images/capao2.jpg", alt: "Estrutura Gravataí" },
+            { src: "/images/capao3.jpg", alt: "Vista aérea Gravataí" },
         ]
     },
     {
