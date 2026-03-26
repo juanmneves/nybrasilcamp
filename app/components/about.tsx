@@ -1,4 +1,4 @@
-import { Trophy, Target, Users } from "lucide-react"
+import { Trophy, Target, Users, Earth } from "lucide-react"
 
 const features = [
     {
@@ -15,6 +15,11 @@ const features = [
         icon: Users,
         title: "Experiência Real",
         description: "Treine como um profissional de verdade com coaches experientes"
+    },
+    {
+        icon: Earth,
+        title: "Oportunidade Internacional",
+        description: "OS atletas terão oportunidade de serem selecionados para estudarem e jogarem no exterior, nos EUA e EUROPA."
     }
 ]
 
@@ -22,7 +27,7 @@ export function About() {
     return (
         <section id="sobre" className="py-24 bg-[#f8f9fa]">
             <div className="container mx-auto px-4">
-                <div className="max-w-6xl mx-auto">
+                <div className="max-w-7xl mx-auto">
                     {/* Section Header */}
                     <div className="text-center mb-16">
                         <span
@@ -44,7 +49,7 @@ export function About() {
                     </div>
 
                     {/* Features Grid */}
-                    <div className="grid md:grid-cols-3 gap-6 mb-16">
+                    <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
