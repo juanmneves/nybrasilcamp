@@ -17,7 +17,19 @@ export const metadata: Metadata = {
     description: "Participe do NY Brasil Camp e viva a metodologia internacional de futebol. Treinos de alto nível, estrutura profissional e experiência única no Brasil.",
     icons: {
         icon: "/favicon-v2.ico",
-    }
+    },
+    openGraph: {
+        title: "NY Brasil Camp | A metodologia do New York chega ao Brasil",
+        description: "Participe do NY Brasil Camp e viva a metodologia internacional de futebol. Treinos de alto nível, estrutura profissional e experiência única no Brasil.",
+        url: "https://www.nybrasilcamp.com",
+        images: [
+            {
+                url: "/images/escudo.png",
+                width: 1200,
+                height: 630,
+            },
+        ],
+    },
 };
 
 export default function RootLayout({
