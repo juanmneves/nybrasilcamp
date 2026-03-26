@@ -12,21 +12,21 @@ const locations = [
         address: "R. Francisco Ader, 806 - Novo Mundo, Curitiba - PR, 81050-140",
         description: "Estrutura de alto nível com campos oficiais, vestiários modernos e área de alimentação completa.",
         features: [
-            "3 campos de grama natural",
-            "Vestiários climatizados",
-            "Área médica equipada",
-            "Refeitório no local",
-            "Estacionamento gratuito",
-            "Arquibancada coberta"
+            "1 campo de futebol 7",
+            "1 campo de futebol sintético padrão fifa",
+            "Estacionamento",
+            "Vestiários",
+            "Ambulância e segurança",
+            "Cantina"
         ],
         access: {
             car: "20 min do centro de Curitiba",
             airport: "25 min do Aeroporto"
         },
         images: [
-            { src: "/images/rgm.jpeg", alt: "Campo Gravataí" },
-            { src: "/images/rgm2.jpeg", alt: "Estrutura Gravataí" },
-            { src: "/images/rgm3.jpeg", alt: "Vista aérea Gravataí" },
+            { src: "/images/capao.webp", alt: "Campo Gravataí" },
+            { src: "/images/capao2.webp", alt: "Estrutura Gravataí" },
+            { src: "/images/capao3.webp", alt: "Vista aérea Gravataí" },
         ]
     },
     {
@@ -145,7 +145,7 @@ export function Local() {
                             {location.venue}
                         </h3>
 
-                        <p className="text-gray-600 flex items-center gap-2">
+                        <p className="text-gray-600 flex lg:items-center text-xs lg:text-sm  gap-2">
                             <MapPin className="w-4 h-4" />
                             {location.address}
                         </p>
@@ -157,8 +157,8 @@ export function Local() {
                             <h4 className="font-bold mb-3">Estrutura</h4>
                             <div className="grid grid-cols-2 gap-2">
                                 {location.features.map((f, i) => (
-                                    <div key={i} className="flex gap-2 text-sm">
-                                        <CheckCircle2 className="w-4 h-4 text-blue-500" />
+                                    <div key={i} className="flex gap-2 text-xs items-center md:text-sm">
+                                        <CheckCircle2 className="md::w-4 md:h-4 h-2 w-2  text-blue-500" />
                                         {f}
                                     </div>
                                 ))}

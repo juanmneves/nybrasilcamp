@@ -67,14 +67,14 @@ export function Hero() {
                         <h3 className="text-base md:text-lg font-bold text-white mb-1" style={{ fontFamily: 'var(--font-display)' }}>
                             Curitiba/PR
                         </h3>
-                        <p className="text-white/60 text-sm">4, 5 e 6 de julho</p>
+                        <p className="text-white/60 text-sm">10, 11 e 12 de julho</p>
                     </div>
                     <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 md:p-6 hover:border-[#00AEEF]/50 hover:bg-white/10 transition-all duration-300">
                         <CalendarDays className="w-7 h-7 text-[#00AEEF] mx-auto mb-3 group-hover:scale-110 transition-transform" />
                         <h3 className="text-base md:text-lg font-bold text-white mb-1" style={{ fontFamily: 'var(--font-display)' }}>
                             Gravataí/RS
                         </h3>
-                        <p className="text-white/60 text-sm">12 e 13 de julho</p>
+                        <p className="text-white/60 text-sm">10 e 11 de julho</p>
                     </div>
 
 

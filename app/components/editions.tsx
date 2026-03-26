@@ -4,7 +4,7 @@ const editions = [
     {
         city: "Curitiba",
         state: "PR",
-        dates: "4, 5 e 6 de julho",
+        dates: "10, 11 e 12 de julho",
         location: "Campo de Futebol Capão Raso",
         address: "Curitiba, Paraná",
         featured: true,
@@ -14,7 +14,7 @@ const editions = [
     {
         city: "Gravataí",
         state: "RS",
-        dates: "12 e 13 de julho",
+        dates: "10 e 11 de julho",
         location: "RGM Academy",
         address: "Gravataí, Rio Grande do Sul",
         featured: true,

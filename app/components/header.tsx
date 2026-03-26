@@ -49,7 +49,7 @@ export function Header() {
                         />
 
                         <span
-                            className={`text-lg font-bold uppercase hidden sm:block transition-colors ${isScrolled ? "text-white" : "text-white/90"
+                            className={`text-lg font-bold uppercase  transition-colors ${isScrolled ? "text-white" : "text-white/90"
                                 }`}
                             style={{ fontFamily: 'var(--font-display)' }}
                         >
@@ -75,7 +75,7 @@ export function Header() {
                     </nav>
 
                     {/* CTA Button */}
-                    <div className="hidden md:block">
+                    <div className="hidden xl:block">
                         <a
                             href="https://wa.me/5541996966867?text=Olá,%20gostaria%20de%20me%20inscrever%20no%20NY%20Brasil%20Camp!"
                             target="_blank"
