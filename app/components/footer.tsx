@@ -34,7 +34,7 @@ export function Footer() {
 
                     {/* CTA Button */}
                     <a
-                        href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de fazer minha inscrição.")}`}
+                        href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de fazer minha inscrição no NY Brasil.")}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white px-10 md:px-14 py-5 md:py-6 rounded-full text-lg md:text-xl font-bold uppercase tracking-wider transition-all duration-300 hover:scale-105 shadow-xl shadow-[#25D366]/30"

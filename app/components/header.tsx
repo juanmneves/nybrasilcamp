@@ -114,7 +114,7 @@ export function Header() {
                             </a>
                         ))}
                         <a
-                            href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de me inscrever no NY Brasil Camp!")}`} target="_blank"
+                            href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de fazer minha inscrição no NY Brasil.")}`} target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => setMobileMenuOpen(false)}
                             className="mt-2 text-center bg-[#00AEEF] hover:bg-[#00AEEF]/90 text-[#003087] px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wider transition-all"

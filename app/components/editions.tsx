@@ -123,7 +123,7 @@ export function Editions() {
 
                                 {/* CTA */}
                                 <a
-                                    href={`https://wa.me/5541996966867?text=${encodeURIComponent(`Olá, gostaria de me inscrever no NY Brasil Camp - Edição ${edition.city}/${edition.state} (${edition.dates})!`)}`}
+                                    href={`https://wa.me/5541996966867?text=${encodeURIComponent(`Olá, gostaria de fazer minha inscrição no NY Brasil - Edição ${edition.city}/${edition.state} (${edition.dates})!`)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className={`group flex items-center justify-center gap-2 w-full py-4 rounded-full font-bold uppercase tracking-wider transition-all duration-300 ${edition.featured

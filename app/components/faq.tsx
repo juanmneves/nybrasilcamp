@@ -96,7 +96,7 @@ export function FAQ() {
                     <div className="text-center mt-10">
                         <p className="text-[#4a6fa5] mb-4">Ainda tem dúvidas?</p>
                         <a
-                            href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de fazer minha inscrição.")}`}
+                            href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de fazer minha inscrição no NY Brasil.")}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 text-[#00AEEF] font-bold hover:underline"

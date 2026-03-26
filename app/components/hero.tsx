@@ -99,7 +99,7 @@ export function Hero() {
                 {/* CTA */}
                 <div className="flex flex-col items-center gap-4">
                     <a
-                        href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de me inscrever no NY Brasil Camp!")}`}
+                        href={`https://wa.me/5541996966867?text=${encodeURIComponent("Olá, gostaria de fazer minha inscrição no NY Brasil.")}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group inline-flex items-center gap-2 bg-[#00AEEF] hover:bg-white text-[#003087] px-10 md:px-14 py-4 md:py-5 rounded-full text-lg md:text-xl font-bold uppercase tracking-wider transition-all duration-300 hover:scale-105 shadow-xl shadow-[#00AEEF]/30"
