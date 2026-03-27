@@ -19,7 +19,7 @@ const features = [
     {
         icon: Earth,
         title: "Oportunidade Internacional",
-        description: "OS atletas terão oportunidade de serem selecionados para estudarem e jogarem no exterior, nos EUA e EUROPA."
+        description: "Os atletas terão a oportunidade de ser selecionados para estudar e jogar no exterior, nos EUA e na EUROPA."
     }
 ]
 
